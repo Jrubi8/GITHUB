@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffa8d9; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    background-color: black;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar ul li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+}
+
+.navbar ul li a:hover {
+    background-color: #004d40;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #F5F5DC;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.ini {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.con {
+    width: 500px;
+    height: auto;
+    margin-right: 20px;
+}
+section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 80%;
+}
+
+section h1 {
+    color: #000000;
+}
+
+
+footer {
+    background: #202020;
+    color: white;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 250px;
+    }
+}
